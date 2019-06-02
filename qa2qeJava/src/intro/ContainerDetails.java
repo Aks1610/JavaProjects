@@ -23,6 +23,7 @@ public class ContainerDetails {
 		System.out.println("Container details\n" + "Container number :" + containerNbr + "\n" + "Container length :"
 				+ de.format(length) + "\n" + "Container width :" + de.format(width) + "\n" + "Container height :"
 				+ de.format(height) + "\n" + "Container weight :" + df.format(weight));
+		sc.close();
 	}
 
 }
