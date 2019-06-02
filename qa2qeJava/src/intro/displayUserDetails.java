@@ -13,14 +13,15 @@ public class displayUserDetails {
 		System.out.println("Enter the name :");
 		String name = sc.next();
 		System.out.println("Enter the username :");
-	    String username = sc.next();
-	    System.out.println("Enter the password :");
+		String username = sc.next();
+		System.out.println("Enter the password :");
 		String password = sc.next();
 		System.out.println("Enter the mobilenumber :");
 		String mobileNbr = sc.next();
 		System.out.println("Enter the rating :");
 		Double rating = sc.nextDouble();
-		System.out.println("User details are :"+"\nId : " + id + "\nName : " + name +"\nUsername : " + username + "\nMobile Number : " + mobileNbr +"\nRating : " + rating);
+		System.out.println("User details are :" + "\nId : " + id + "\nName : " + name + "\nUsername : " + username
+				+ "\nMobile Number : " + mobileNbr + "\nRating : " + rating);
 		sc.close();
 	}
 }

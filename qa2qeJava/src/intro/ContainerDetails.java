@@ -20,12 +20,9 @@ public class ContainerDetails {
 		float weight = sc.nextFloat();
 		DecimalFormat de = new DecimalFormat("#.00");
 		DecimalFormat df = new DecimalFormat("#.000");
-		System.out.println("Container details\n" + 
-				"Container number :"+ containerNbr +"\n" + 
-				"Container length :"+ de.format(length) +"\n" + 
-				"Container width :"+ de.format(width) +"\n" + 
-				"Container height :"+ de.format(height) +"\n" + 
-				"Container weight :"+ df.format(weight));
+		System.out.println("Container details\n" + "Container number :" + containerNbr + "\n" + "Container length :"
+				+ de.format(length) + "\n" + "Container width :" + de.format(width) + "\n" + "Container height :"
+				+ de.format(height) + "\n" + "Container weight :" + df.format(weight));
 	}
 
 }

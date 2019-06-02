@@ -19,7 +19,8 @@ public class AvgWeightofItemsinContainer {
 		System.out.println("Enter the weight of each item w2 :");
 		float w2 = Float.parseFloat(br.readLine());
 		DecimalFormat df = new DecimalFormat("#.00");
-		System.out.println("The average weight of the items in container :" + df.format((n1*w1+n2*w2)/(n1+n2)));
+		System.out
+				.println("The average weight of the items in container :" + df.format((n1 * w1 + n2 * w2) / (n1 + n2)));
 	}
 
 }
