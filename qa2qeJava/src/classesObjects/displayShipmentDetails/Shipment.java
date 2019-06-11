@@ -1,6 +1,5 @@
-package clasesObjects.displayShipmentDetails;
+package classesObjects.displayShipmentDetails;
 
-import java.math.*;
 import java.text.DecimalFormat;
 
 public class Shipment {
@@ -62,6 +61,7 @@ public class Shipment {
 		nextShipmentId++;
 		int id = nextShipmentId;
 		Shipment shipment = new Shipment(id, shipperName, modeOfTransportation, totalWeight, arrivalPort, departurePort);
+	
 		return shipment;
 	}
 	
@@ -73,7 +73,6 @@ public class Shipment {
 	public String toString(){
 	DecimalFormat format = new DecimalFormat("0.##");
 	String weight = format.format(this.totalWeight);
-	 
 	return String.format(("%-15d%-15s%-25s%-15s%-20s%s"),
 	this.id,
 	this.shipperName,
